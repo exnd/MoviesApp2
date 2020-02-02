@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">Aplikasi Film</string>
+    <string name="tab_text_1">Daftar Film</string>
+    <string name="tab_text_2">Acara TV</string>
+    <string name="tab_text_3">Setting</string>
+    <string name="content_tab_home">Welcome Home</string>
+    <string name="content_tab_profile">Change your Profile here</string>
+    <string name="content_tab_text">This is Tab</string>
+    <string name="search">cari</string>
+    <string name="search_hint">Masukkan kata</string>
+    <string name="change_language_settings">Ganti Bahasa</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menubiasa">Populer</string>
+    <string name="tabfav1">Favorit Film</string>
+    <string name="tabfav2">Favorit TV</string>
+    <string name="menufav">Favorit</string>
+    <string name="hapusfav">Hapus Fav</string>
+    <string name="heroes_name">Nama Pahlawan</string>
+    <string name="description">Deskripsi</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="with_cardview">with CardView</string>
+    <string name="favorite">Favorite</string>
+    <string name="share">Share</string>
+    <string name="content_text">Content</string>
+    <string name="stock">Stock</string>
+    <string name="dummy_value">Lorem Ipsum DOlor</string>
+    <string name="mvsearch">Find Movie</string>
+    <string name="mvstohome">Home</string>
+    <string name="tvsearch">Find TV Show</string>
+    <string-array name="data_name">
+        <item>Joker (2019)</item>
+        <item>IP Man 4</item>
+        <item>Frozen II</item>
+        <item>Code 8 (2019)</item>
+        <item>Rambo Last Blood (2019)</item>
+        <item>Gundala (2019)</item>
+        <item>Ad Astra (2019)</item>
+        <item>Star Wars The Rise of Skywalker (2019)</item>
+        <item>Jumanji The Next Level (2019)</item>
+        <item>The Irishman (2019)</item>
+    </string-array>
+
+
+    <string-array name="data_description">
+        <item> Selama 1980-an, seorang komedian gagal gagal menjadi gila dan berubah menjadi kehidupan kriminal dan kacau di Kota Gotham sambil menjadi tokoh kejahatan psikopat yang terkenal. </item>
+        <item> Ip Man 4 adalah film seni bela diri biografi Hong Kong yang akan datang yang disutradarai oleh Wilson Yip dan diproduksi oleh Raymond Wong. Ini adalah yang keempat dalam seri film Ip Man berdasarkan kehidupan grandmaster Wing Chun dengan nama yang sama dan fitur Donnie Yen mengulangi peran. Film ini mulai diproduksi pada April 2018 dan berakhir pada Juli di tahun yang sama. </item>
+        <item> Elsa, Anna, Kristoff, dan Olaf pergi jauh ke hutan untuk mempelajari kebenaran tentang misteri kuno kerajaan mereka. </item>
+        <item> Di Lincoln City, beberapa penduduk memiliki kemampuan luar biasa. Sebagian besar hidup di bawah garis kemiskinan, di bawah pengawasan ketat pasukan polisi yang sangat militeristis. Connor, seorang pekerja bangunan dengan kekuatan, melibatkan geng kriminal untuk membantu ibunya yang sakit. (Berdasarkan film pendek "Kode 8," 2016.) </item>
+        <item> Setelah melawan iblisnya selama beberapa dekade, John Rambo sekarang hidup damai di peternakan keluarganya di Arizona, tetapi sisanya terganggu ketika Gabriela, cucu pengurus rumah tangganya, María, menghilang setelah melintasi perbatasan ke Meksiko untuk bertemu dengan ayah kandungnya. . Rambo, yang telah menjadi figur ayah sejati bagi Gabriela selama bertahun-tahun, melakukan perjalanan yang putus asa dan berbahaya untuk menemukannya. </item>
+        <item> Sancaka telah hidup di jalanan sejak orang tuanya meninggalkannya. Menjalani hidup yang sulit, Sancaka bertahan dengan memikirkan keselamatannya sendiri. Ketika kondisi kota semakin memburuk dan ketidakadilan mengamuk di seluruh negeri, Sancaka harus memutuskan apakah dia terus hidup untuk menjaga dirinya sendiri atau bangkit untuk menjadi pahlawan tertindas mereka. </item>
+        <item> Masa depan yang dekat, saat harapan dan kesulitan mendorong umat manusia untuk melihat bintang-bintang dan seterusnya. Sementara sebuah fenomena misterius mengancam untuk menghancurkan kehidupan di planet Bumi, astronot Roy McBride melakukan misi melintasi luasnya ruang dan banyak bahaya untuk mengungkap kebenaran tentang ekspedisi yang hilang yang beberapa dekade sebelumnya dengan berani menghadapi kehampaan dan keheningan untuk mencari yang tidak diketahui. </item>
+        <item> Angsuran berikutnya dalam waralaba dan kesimpulan dari trilogi sekuel Star Wars serta Skywalker Saga. </item>
+        <item> Di Jumanji: The Next Level, geng kembali tetapi gim telah berubah. Ketika mereka kembali untuk menyelamatkan salah satu dari mereka sendiri, para pemain harus berani bagian yang tidak diketahui dari gurun kering ke gunung bersalju, untuk melarikan diri dari permainan dunia yang paling berbahaya. </item>
+        <item> Pennsylvania, 1956. Frank Sheeran, seorang veteran perang asal Irlandia yang bekerja sebagai sopir truk, secara tidak sengaja bertemu dengan mafia Russell Bufalino. Begitu Frank menjadi pria tepercaya, Bufalino mengirimnya ke Chicago dengan tugas membantu Jimmy Hoffa, seorang pemimpin serikat pekerja yang kuat terkait dengan kejahatan terorganisir, dengan siapa Frank akan mempertahankan persahabatan yang erat selama hampir dua puluh tahun.</item>
+    </string-array>
+    <string-array name="data_photo">
+        <item>https://image.tmdb.org/t/p/w600_and_h900_bestv2/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg</item>
+        <item>https://image.tmdb.org/t/p/w600_and_h900_bestv2/jMmi8lUMNW18ugr38uaEEg6LgJK.jpg</item>
+        <item>https://image.tmdb.org/t/p/w600_and_h900_bestv2/pjeMs3yqRmFL3giJy4PMXWZTTPa.jpg</item>
+        <item>https://image.tmdb.org/t/p/w600_and_h900_bestv2/84Xz2Jh60tC3ICO1CY27wc0zwgC.jpg</item>
+        <item>https://image.tmdb.org/t/p/w600_and_h900_bestv2/kTQ3J8oTTKofAVLYnds2cHUz9KO.jpg</item>
+        <item>https://image.tmdb.org/t/p/w600_and_h900_bestv2/eU0orGizEpOli4wtN8HtfOOJDlA.jpg</item>
+        <item>https://image.tmdb.org/t/p/w600_and_h900_bestv2/xJUILftRf6TJxloOgrilOTJfeOn.jpg</item>
+        <item>https://image.tmdb.org/t/p/w600_and_h900_bestv2/db32LaOibwEliAmSL2jjDF6oDdj.jpg</item>
+        <item>https://image.tmdb.org/t/p/w600_and_h900_bestv2/l4iknLOenijaB85Zyb5SxH1gGz8.jpg</item>
+        <item>https://image.tmdb.org/t/p/w600_and_h900_bestv2/mbm8k3GFhXS0ROd9AD1gqYbIFbM.jpg</item>
+    </string-array>
+
+    <string-array name="data_name2">
+        <item>The Mandalorian (2019)</item>
+        <item>Rick and Morty (2013)</item>
+        <item>His Dark Materials (2019)</item>
+        <item>Vikings (2013)</item>
+        <item>The Flash (2014)</item>
+        <item>Supernatural (2005)</item>
+
+        <item>The Walking Dead (2010)</item>
+        <item>The Expanse (2015)</item>
+        <item>The Blacklist (2013)</item>
+        <item>Prison Break (2005)</item>
+    </string-array>
+
+    <string-array name="data_description2">
+        <item> Ditetapkan setelah jatuhnya Kekaisaran dan sebelum munculnya Orde Pertama, kita mengikuti kerja keras seorang penembak jitu di bagian terluar galaksi yang jauh dari otoritas Republik Baru. </item>
+        <item> Rick adalah orang tua yang tidak seimbang secara mental tetapi berbakat secara ilmiah yang baru-baru ini terhubung kembali dengan keluarganya. Dia menghabiskan sebagian besar waktunya dengan melibatkan cucunya yang muda, Morty, dalam petualangan berbahaya dan aneh di luar angkasa dan alam semesta alternatif. Ditambah dengan kehidupan keluarga Morty yang sudah tidak stabil, peristiwa-peristiwa ini menyebabkan Morty sangat tertekan di rumah dan sekolah. </item>
+        <item> Lyra adalah seorang yatim piatu yang hidup di alam semesta paralel di mana sains, teologi, dan sihir terjalin. Pencarian Lyra untuk seorang teman yang diculik mengungkap plot menyeramkan yang melibatkan anak-anak yang dicuri, dan berubah menjadi pencarian untuk memahami fenomena misterius yang disebut Dust. Dia kemudian bergabung dalam perjalanannya oleh Will, seorang bocah lelaki yang memiliki pisau yang dapat memotong jendela antar dunia. Saat Lyra mengetahui kebenaran tentang orang tuanya dan takdirnya yang dinubuatkan, kedua orang muda itu terperangkap dalam perang melawan kekuatan selestial yang tersebar di banyak dunia. </item>
+        <item> Petualangan Ragnar Lothbrok, pahlawan terhebat seusianya. Serial ini menceritakan kisah band Ragnar dari Viking bersaudara dan keluarganya, saat ia naik menjadi Raja dari suku Viking. Selain sebagai pejuang yang tak kenal takut, Ragnar mewujudkan tradisi pengabdian Norse kepada para dewa. Legenda mengatakan bahwa dia adalah keturunan langsung dari Odin, dewa perang dan pejuang. </item>
+        <item> Setelah akselerator partikel menyebabkan badai hebat, Penyelidik CSI Barry Allen disambar petir dan jatuh koma. Beberapa bulan kemudian dia terbangun dengan kekuatan kecepatan super, memberinya kemampuan untuk bergerak melalui Central City seperti malaikat penjaga yang tak terlihat. Meskipun awalnya senang dengan kekuatan barunya, Barry terkejut menemukan bahwa dia bukan satu-satunya "manusia meta" yang diciptakan setelah ledakan akselerator - dan tidak semua orang menggunakan kekuatan baru mereka untuk kebaikan. Barry bermitra dengan S.T.A.R. Lab dan mendedikasikan hidupnya untuk melindungi yang tidak bersalah. Untuk saat ini, hanya beberapa teman dekat dan rekan yang tahu bahwa Barry secara harfiah adalah manusia tercepat, tetapi tidak akan lama sebelum dunia mengetahui apa yang menjadi Barry Allen ... The Flash. </item>
+        <item> Ketika mereka masih kecil, Sam dan Dean Winchester kehilangan ibu mereka karena kekuatan gaib yang misterius dan iblis. Selanjutnya, ayah mereka membesarkan mereka menjadi tentara. Dia mengajari mereka tentang kejahatan paranormal yang hidup di sudut-sudut gelap dan di jalan belakang Amerika ... dan dia mengajari mereka cara membunuhnya. Sekarang, saudara-saudara Winchester menjelajahi negara itu dengan Chevy Impala mereka, melawan semua jenis ancaman supranatural yang mereka temui di sepanjang jalan. </item>
+
+        <item> Wakil Sheriff Rick Grimes terbangun dari koma untuk menemukan dunia pasca-apokaliptik yang didominasi oleh zombie pemakan daging. Dia berangkat untuk menemukan keluarganya dan bertemu dengan banyak penyintas lainnya di sepanjang jalan. </item>
+        <item> Film thriller yang dibuat dua ratus tahun di masa depan mengikuti kasus seorang wanita muda yang hilang yang membawa seorang detektif keras dan kapten kapal nakal bersama-sama dalam perlombaan melintasi tata surya untuk mengekspos konspirasi terbesar dalam sejarah manusia. </item>
+        <item> Raymond "Merah" Reddington, salah satu buronan FBI yang paling dicari, menyerah secara langsung di Markas Besar FBI di Washington, D.C. Dia mengklaim bahwa dia dan FBI memiliki kepentingan yang sama: menjatuhkan penjahat dan teroris berbahaya. Dalam dua dekade terakhir, ia membuat daftar penjahat dan teroris yang paling berarti tetapi FBI tidak dapat menemukan karena tidak tahu mereka ada. Reddington menyebut ini "Daftar Hitam". Reddington akan bekerja sama, tetapi menegaskan bahwa dia akan berbicara hanya dengan Elizabeth Keen, seorang profiler pemula FBI. </item>
+        <item> Karena persekongkolan politik, seorang lelaki tak bersalah dikirim ke hukuman mati dan satu-satunya harapannya adalah saudaranya, yang menjadikannya misinya dengan sengaja mengirim dirinya ke penjara yang sama untuk menghancurkan mereka berdua, dari bagian dalam keluar. </item>
+    </string-array>
+
+    <string-array name="data_photo2">
+        <item>https://image.tmdb.org/t/p/w600_and_h900_bestv2/BbNvKCuEF4SRzFXR16aK6ISFtR.jpg</item>
+        <item>https://image.tmdb.org/t/p/w600_and_h900_bestv2/qJdfO3ahgAMf2rcmhoqngjBBZW1.jpg</item>
+        <item>https://image.tmdb.org/t/p/w600_and_h900_bestv2/xOjRNnQw5hqR1EULJ2iHkGwJVA4.jpg</item>
+        <item>https://image.tmdb.org/t/p/w600_and_h900_bestv2/ff1zhqvwfS5HvRNcA5UFrH0PA2q.jpg</item>
+        <item>https://image.tmdb.org/t/p/w600_and_h900_bestv2/wHa6KOJAoNTFLFtp7wguUJKSnju.jpg</item>
+        <item>https://image.tmdb.org/t/p/w600_and_h900_bestv2/KoYWXbnYuS3b0GyQPkbuexlVK9.jpg</item>
+
+        <item>https://image.tmdb.org/t/p/w600_and_h900_bestv2/reKs8y4mPwPkZG99ZpbKRhBPKsX.jpg</item>
+        <item>https://image.tmdb.org/t/p/w600_and_h900_bestv2/wikmaI7OVqmq2O9HfknkzxX6Ygu.jpg</item>
+        <item>https://image.tmdb.org/t/p/w600_and_h900_bestv2/bgbQCW4fE9b6wSOSC6Fb4FfVzsW.jpg</item>
+        <item>https://image.tmdb.org/t/p/w600_and_h900_bestv2/5E1BhkCgjLBlqx557Z5yzcN0i88.jpg</item>
+    </string-array>
+
+</resources>
