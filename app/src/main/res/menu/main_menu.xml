@@ -23,4 +23,8 @@
         android:id="@+id/tvsearch"
         android:title="@string/tvsearch"
         app:showAsAction="never"/>
+    <item
+        android:id="@+id/reminder"
+        android:title="@string/set_reminder"
+        app:showAsAction="never"/>
 </menu>

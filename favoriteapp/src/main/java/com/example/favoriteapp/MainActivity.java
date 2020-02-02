@@ -109,18 +109,20 @@ public class MainActivity extends AppCompatActivity implements RecyclerViewInter
                 null,                     // Argumen untuk klausa kriteria
                 null);
 
-
-        if(cursor.moveToFirst()){
-            do{
-                Movie movie=new Movie();
-                movie.setName(cursor.getString(0));
-                movie.setDescription(cursor.getString(1));
-                movie.setPhoto(cursor.getString(2));
-                Log.d("_CONTENT_CURSOR2",cursor.getString(0));
-                newMovie.add(movie);
-                Log.d("_NEWMOVIE",newMovie.get(0).getName());
-            }while(cursor.moveToNext());
+        if(cursor != null){
+            if(cursor.moveToFirst()){
+                do{
+                    Movie movie=new Movie();
+                    movie.setName(cursor.getString(0));
+                    movie.setDescription(cursor.getString(1));
+                    movie.setPhoto(cursor.getString(2));
+                    Log.d("_CONTENT_CURSOR2",cursor.getString(0));
+                    newMovie.add(movie);
+                    Log.d("_NEWMOVIE",newMovie.get(0).getName());
+                }while(cursor.moveToNext());
+            }
         }
+
 
         return newMovie;
     }

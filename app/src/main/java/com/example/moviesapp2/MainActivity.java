@@ -1,17 +1,13 @@
 package com.example.moviesapp2;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.SearchView;
-import androidx.viewpager.widget.ViewPager;
-
-import android.app.SearchManager;
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.provider.Settings;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.material.tabs.TabLayout;
 
@@ -65,6 +61,11 @@ public class MainActivity extends AppCompatActivity {
 
         if (item.getItemId() == R.id.tvsearch) {
             Intent mIntent = new Intent(MainActivity.this,TVSearch.class);
+            startActivity(mIntent);
+        }
+
+        if (item.getItemId() == R.id.reminder) {
+            Intent mIntent = new Intent(MainActivity.this,Reminder.class);
             startActivity(mIntent);
         }
 
