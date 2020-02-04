@@ -22,7 +22,7 @@ import java.util.ArrayList;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class FavMovieFragment extends Fragment implements RecyclerViewInterface {
+public class  FavMovieFragment extends Fragment implements RecyclerViewInterface {
 
 
     View view;

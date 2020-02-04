@@ -6,9 +6,19 @@
     <string name="content_tab_home">Welcome Home</string>
     <string name="content_tab_profile">Change your Profile here</string>
     <string name="content_tab_text">This is Tab</string>
-    <string name="search">cari</string>
+
     <string name="search_hint">Masukkan kata</string>
     <string name="change_language_settings">Ganti Bahasa</string>
+
+    <string name="content_title">Movie App</string>
+    <string name="content_text2">Ayo Lihat Movie Terbaru</string>
+    <string name="subtext">Sub text</string>
+    <string name="search">cari</string>
+    <string name="empty_text">DATA KOSONG</string>
+
+    <string name="appwidget_text">WIDGET FAVORIT</string>
+    <string name="add_widget">Add widget</string>
+    <string name="set_reminder">Set Reminder</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
