@@ -30,21 +30,14 @@ import cz.msebera.android.httpclient.Header;
 
 public class Broadcast2 extends BroadcastReceiver {
 
-    private static final int NOTIF_ID_REPEATING = 100;
+    private static int NOTIF_ID_REPEATING = 100;
     public static String CHANNEL_ID = "channel_02";
     public static CharSequence CHANNEL_NAME = "dicoding channel2";
 
 
     @Override
-    public void onReceive(Context context, Intent intent) {
-        String title = intent.getStringExtra("KOKA");
-        String message = "Film "+title+" Telah Rilis Hari Ini !";
-        sendNotification(context, title, message, NOTIF_ID_REPEATING);
-    }
+    public void onReceive(final Context context, Intent intent) {
 
-
-
-    public void setRepeatingAlarm(final Context context) {
 
         final ArrayList<Movie> moviehari = new ArrayList<>();
 
@@ -87,26 +80,18 @@ public class Broadcast2 extends BroadcastReceiver {
                         Log.d("_UKURAN",String.valueOf(moviehari.size()));
 
 
-                        cancelAlarm(context);
-                        AlarmManager alarmManager = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
-
-
                         Log.d("_MVDATA",moviehari.get(i).getName());
 
 
-                        Intent intent2 = new Intent(context, Broadcast2.class);
-                        intent2.putExtra("KOKA", movie.getName());
-                        PendingIntent pendingIntent = PendingIntent.getBroadcast(context,  100, intent2, PendingIntent.FLAG_UPDATE_CURRENT);
-
                         Calendar calendar = Calendar.getInstance();
                         calendar.set(Calendar.HOUR_OF_DAY , 8);
-//            calendar.set(Calendar.MINUTE, 41);
 
-                        alarmManager.setInexactRepeating(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(), AlarmManager.INTERVAL_DAY, pendingIntent);
+                        String title = movie.getName();
+                        String message = "Film "+title+" Telah Rilis";
+                        sendNotification(context, title, message, NOTIF_ID_REPEATING);
 
-                        if (alarmManager != null) {
-                            alarmManager.setInexactRepeating(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(), AlarmManager.INTERVAL_DAY, pendingIntent);
-                        }
+                        NOTIF_ID_REPEATING++;
+
 
                     }
 
@@ -123,8 +108,20 @@ public class Broadcast2 extends BroadcastReceiver {
 
 
 
+    }
 
 
+
+    public void setRepeatingAlarm(final Context context) {
+
+
+        cancelAlarm(context);
+        AlarmManager alarmManager = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
+
+        Calendar calendar = Calendar.getInstance();
+        calendar.set(Calendar.HOUR_OF_DAY, 8);
+
+        alarmManager.setInexactRepeating(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(), AlarmManager.INTERVAL_DAY, getPendingIntent(context));
 
         Toast.makeText(context, "New Movie Reminder Set Up", Toast.LENGTH_SHORT).show();
     }
@@ -158,6 +155,7 @@ public class Broadcast2 extends BroadcastReceiver {
                 .setSmallIcon(R.drawable.ic_search_black_24dp)
                 .setContentTitle(judul)
                 .setContentText(pesan)
+                .setPriority(NotificationCompat.PRIORITY_HIGH)
                 .setSubText("New Movie Reminder")
                 .setAutoCancel(true);
 

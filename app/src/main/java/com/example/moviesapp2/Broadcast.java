@@ -17,7 +17,7 @@ import java.util.Calendar;
 
 public class Broadcast extends BroadcastReceiver {
 
-    private static final int NOTIF_ID_REPEATING = 200;
+    private static int NOTIF_ID_REPEATING = 200;
     public static String CHANNEL_ID = "channel_01";
     public static CharSequence CHANNEL_NAME = "dicoding channel";
 
@@ -26,7 +26,12 @@ public class Broadcast extends BroadcastReceiver {
 
         String message = "Mau Nonton Film Apa Hari Ini ?";
         String title = "Movies App";
+
+
         sendNotification(context, title, message, NOTIF_ID_REPEATING);
+
+
+
     }
 
     public void setRepeatingAlarm(Context context) {
@@ -69,6 +74,7 @@ public class Broadcast extends BroadcastReceiver {
                 .setSmallIcon(R.drawable.ic_search_black_24dp)
                 .setContentTitle(judul)
                 .setContentText(pesan)
+                .setPriority(NotificationCompat.PRIORITY_HIGH)
                 .setSubText("Daily Reminder")
                 .setAutoCancel(true);
 
